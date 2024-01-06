@@ -8,6 +8,9 @@ import ClassList from './pages/ClassList';
 import AddClass from './pages/AddClass';
 import StudentList from './pages/StudentList';
 import AddStudent from './pages/AddStudent';
+import Addttmarks from './pages/Addttmarks';
+import Addtwmarks from './pages/Addtwmarks';
+import Addesemarks from './pages/Addesemarks';
 import StudentProfile from './components/StudentProfile';
 import StudentPage from './pages/StudentPage';
 import ViewAnalytics from './pages/ViewAnalytics';
@@ -24,6 +27,9 @@ function App() {
           <Route path='/teacher-classes/:id' element={<StudentList />} />
           <Route path='/teacher-add-class' element={<AddClass />} />
           <Route path='/teacher-add-student' element={<AddStudent />} />
+          <Route path='/teacher-add-ttmarks' element={<Addttmarks />} />
+          <Route path='/teacher-add-twmarks' element={<Addtwmarks />} />
+          <Route path='/teacher-add-esemarks' element={<Addesemarks />} />
           <Route path='/teacher-student-profile/:id' element={<StudentPage />} />
           <Route path='/student-auth' element={<StudentAuth />} />
           <Route path='/student-profile/:id' element={<StudentProfile />} />
